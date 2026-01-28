@@ -1,0 +1,61 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# ======================
+# Virtual Environment
+# ======================
+venv/
+.env
+.env.*
+.python-version
+
+# ======================
+# FastAPI / Uvicorn
+# ======================
+*.log
+logs/
+
+# ======================
+# Databases / Local files
+# ======================
+*.sqlite3
+*.db
+
+# ======================
+# IDEs / Editors
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Testing
+# ======================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ======================
+# Migrations
+# ======================
+alembic/versions/*.pyc
+
+# ======================
+# Docker (si lo usas después)
+# ======================
+docker-compose.override.yml
